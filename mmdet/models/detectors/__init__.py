@@ -18,6 +18,7 @@ from .htc import HybridTaskCascade
 from .kd_one_stage import KnowledgeDistillationSingleStageDetector
 from .lad import LAD
 from .mask_rcnn import MaskRCNN
+from .sspnet_rcnn import FasterSSPNet
 from .mask_scoring_rcnn import MaskScoringRCNN
 from .maskformer import MaskFormer
 from .nasfcos import NASFCOS
@@ -49,7 +50,7 @@ __all__ = [
     'GridRCNN', 'MaskScoringRCNN', 'RepPointsDetector', 'FOVEA', 'FSAF',
     'NASFCOS', 'PointRend', 'GFL', 'CornerNet', 'PAA', 'YOLOV3', 'YOLACT',
     'VFNet', 'DETR', 'TridentFasterRCNN', 'SparseRCNN', 'SCNet', 'SOLO',
-    'DeformableDETR', 'AutoAssign', 'YOLOF', 'CenterNet', 'YOLOX',
+    'DeformableDETR', 'AutoAssign', 'YOLOF', 'CenterNet', 'YOLOX','FasterSSPNet',
     'TwoStagePanopticSegmentor', 'PanopticFPN', 'QueryInst', 'LAD', 'TOOD',
     'MaskFormer'
 ]
